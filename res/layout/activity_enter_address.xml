@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:background="#A9A9A9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:background="#A9A9A9"
+        android:padding="10dp" >
+
+        <TextView
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:text="Enter your address for faster check up!\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:text="My Address"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:padding="5dip"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:gravity="top|left"
+            android:id="@+id/address"
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:padding="5dip"
+            android:background="@drawable/round_edittext"
+            />
+
+
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:text="Other Details:\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/other_details"
+            android:text="Hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/save_address"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/rounded_bottom"
+            android:text="Save Address!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

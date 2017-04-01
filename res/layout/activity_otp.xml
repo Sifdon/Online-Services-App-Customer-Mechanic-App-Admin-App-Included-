@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical" >
+    <TextView
+        android:textSize="30dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verification!"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="45sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter OTP(One Time Password) received to your mobile number to finish your registration. Please check your inbox messages if you don't get alert"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="35dp"/>
+    <EditText
+        android:maxLength="4"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/edit_text_otp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_edit_text"
+        android:hint="Enter OTP"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:gravity="center"/>
+
+
+
+
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/button_register"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_bottom"/>
+
+
+    <TextView
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+
+</LinearLayout>

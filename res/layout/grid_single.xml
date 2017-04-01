@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#d1cca4"
+    android:padding="15dp"
+    >
+
+    <ImageView
+        android:id="@+id/grid_image"
+        android:layout_width="75dp"
+        android:layout_height="75dp">
+    </ImageView>
+
+    <TextView
+        android:text="reddy"
+        android:id="@+id/grid_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#D0583B"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+
+</LinearLayout>

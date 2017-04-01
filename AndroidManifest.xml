@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="foodzamo.user.com.shikshatask">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Cord" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".User.Login" />
+        <activity android:name=".User.OtpActivity" />
+        <activity android:name=".User.EnterAddress" />
+        <activity android:name=".Mechanic" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Services.SendRequest" />
+        <activity android:name=".Services.ThankYou" />
+        <activity android:name=".Profile.Notifications" />
+        <activity android:name=".Profile.MyDetails" />
+        <activity android:name=".Profile.MyServices" />
+        <activity android:name=".Profile.TrackMechanic" />
+        <activity android:name=".Employee.EmployeeLocation" />
+        <activity android:name=".Employee.Home" />
+        <activity android:name=".Employee.TrackLocation" />
+        <activity android:name=".Employee.EmployeeNotify" />
+        <activity android:name=".Admin.FirstActivity" />
+        <activity android:name=".Admin.SeeRequests" />
+        <activity android:name=".Admin.AssignWork" />
+        <activity android:name=".Admin.EmpList" />
+        <activity android:name=".Integrate"></activity>
+    </application>
+
+</manifest>
